@@ -57,8 +57,8 @@ ul{
   }
   .pic {
     border-radius: 50%;
-    height: 40%;
-    width: 40%;
+    height: 20%;
+    width: 20%;
   }
   .headers{
       color: rgba(70, 70, 70, 0.653);
