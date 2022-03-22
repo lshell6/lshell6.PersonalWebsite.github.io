@@ -7,42 +7,12 @@
         </title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="PersonalWebsite.css">
-        <!-- <script type = "text/javascript">
-            function sendEmail(){
-                var nodemailer = require('nodemailer');
-                let transporter = nodemailer.createTransport({
-                    host: 'smtp.gmail.com',
-                    port: 465,
-                    secure: true,
-                    auth:{
-                        user: 'justlauratestemail@gmail.com',
-                        pass: 'TryingHerBest'
-                    }
-                });
-                let mailOptions = {
-                    from: document.getElementById('fname') + document.getElementById('lname'),
-                    to: 'laurashelly19@gmail.com',
-                    subject: document.getElementById("emailSubject"),
-                    text: document.getElementById("emailBody") + "From" + document.getElementById("email")
-                };  
-                transporter.sendMail(mailOptions, function(error, info){
-                    if(error){
-                        console.log(error);
-                    }
-                    else{
-                        console.log("Email sent: " + info.response);
-                    }
-                });
-                alert("Email Sent!");
-            }
-        </script> -->
     </head>
     <body>
         <!--Nav Bar-->
         <div class="header">
             <a href="#default" class="logo">Laura Shelly</a>
             <div class="header-right">
-                <!--<a class="active" href="#home">Home</a>-->
                 <a href="#AboutMe">About Me</a>
                 <a href="#Experience">Experience</a>
                 <a href="#Portfolio">Portfolio</a>
@@ -145,13 +115,6 @@
         <!--Contact-->
         <a name = "Contact"></a><h2 class = "headers">Contact Me</h2>
         <label>Email: laurashelly19@gmail.com</label>
-        <!-- <form id = "contact" method = "GET" onSubmit = "return sendEmail()">
-            <label for="name">Name:</label> <input type="text" placeholder="First Name" id = "fname" required> <input type="text" placeholder="Last Name" id = "lname" required> <br>
-            <label for="email">Email:</label> <input type="text" placeholder="yourEmail@gmail.com" id = "email" required><br>
-            <label for="subject">Subject:</label> <input type="text" placeholder="subject" id = "emailSubject" required> <br>
-            <label for="message">Message:</label> <input type="text" placeholder="Type message here." id = "emailBody" required> <br>
-            <input type = "submit" value = "Send Email">
-        </form> -->
     </body>
     <footer>
         
